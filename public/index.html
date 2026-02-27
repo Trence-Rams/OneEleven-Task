@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Tester - One Eleven</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>API Tester</h2>
+
+      <input
+        type="url"
+        id="apiUrl"
+        placeholder="Your API URL (e.g., https://your-api.com/api/sort-string)"
+        value="http://localhost:3000/api/sort-string"
+      />
+      <input type="email" id="email" placeholder="Your Email Address" />
+      <button onclick="testApi()">Test API with Validator</button>
+
+      <div id="response" class="response">Response will appear here...</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
